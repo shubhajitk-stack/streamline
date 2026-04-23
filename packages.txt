@@ -1,0 +1,8 @@
+chromium
+chromium-driver
+xdg-utils
+fonts-liberation
+libnss3
+libnspr4
+wget
+unzip
