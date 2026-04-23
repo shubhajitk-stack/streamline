@@ -1129,6 +1129,10 @@ if states_loaded:
                         display_coaching,
                         use_container_width=True,
                         height=450,
+                        column_order=[
+                            "S No", "Coaching Centre", "Branches", "Category",
+                            "Address", "Phone","Maps Link", "Rating", "Reviews", 
+                        ],
                         column_config={
                             "S No": st.column_config.NumberColumn("S No", width="small"),
                             "Coaching Centre": st.column_config.TextColumn("Coaching Centre", width="medium"),
